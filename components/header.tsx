@@ -59,7 +59,7 @@ export function Header() {
         <a
           href="#"
           onClick={(e) => handleScrollTo(e, "#")}
-          className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
+          className="text-xl font-bold bg-primary bg-clip-text text-transparent"
         >
           {portfolioData.personalInfo.name}
           {/* <span className="text-foreground">.dev</span> */}

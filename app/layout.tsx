@@ -31,6 +31,10 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Hamidullah Rezayee" }],
   creator: "Hamidullah Rezayee",
+  icons: {
+    icon: "/avatar.png",
+    apple: "/avatar.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -39,12 +43,21 @@ export const metadata: Metadata = {
     description:
       "Full Stack Web Developer building scalable, modern web applications",
     siteName: "Hamidullah Rezayee Portfolio",
+    images: [
+      {
+        url: "/Photo.jpg",
+        width: 800,
+        height: 800,
+        alt: "Hamidullah Rezayee",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Hamidullah Rezayee | Full Stack Web Developer",
     description:
       "Full Stack Web Developer building scalable, modern web applications",
+    images: ["/Photo.jpg"],
   },
   robots: {
     index: true,
