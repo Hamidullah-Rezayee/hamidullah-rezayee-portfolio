@@ -3,8 +3,8 @@ export const portfolioData = {
     name: "Hamidullah Rezayee",
     title: "Full Stack Developer",
     email: "hamidullahrezayee01@gmail.com", // Placeholder
-    phone: "+93 777 859 700", // Placeholder
-    address: "Dasht-e-Barchi,Kabul, Afghanistan",
+    phone: "+44 7476 692947", // Placeholder
+    address: "London, United Kingdom",
     github: "https://github.com/hamidullahrezayee", // Placeholder
     linkedin: "https://linkedin.com/in/hamidullahrezayee", // Placeholder
     description:
@@ -77,6 +77,25 @@ export const portfolioData = {
     },
   ],
   projects: [
+    {
+      title: "Light Keepers Global Community Platform",
+      date: "Jan 2026 - Feb 2026",
+      description:
+        "Built a full-stack platform for Light Keepers Global Community (lightkeepersgc.org) — a global ministry dedicated to spreading the gospel worldwide. Features include SEO-optimized content platform, AI devotional generation, YouTube API integration, Bible studies with PDF generation, Stripe/PayPal donations, custom admin CRM dashboard, PWA capabilities, and comprehensive REST API with Swagger documentation.",
+      link: "https://lightkeepersgc.org/",
+      technologies: [
+        "Next.js 15",
+        "NestJS",
+        "PostgreSQL",
+        "Prisma ORM",
+        "TailwindCSS",
+        "Radix UI",
+        "TypeScript",
+        "Anthropic Claude",
+        "Stripe",
+        "PayPal",
+      ],
+    },
     {
       title: "King Academy - LMS Mobile App",
       date: "Nov 2025",
