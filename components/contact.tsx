@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { portfolioData } from "@/data/portfolio";
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone, Send } from "lucide-react";
+import { Mail, Phone, Send } from "lucide-react";
 
 export function Contact() {
   return (
@@ -56,7 +56,7 @@ export function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4">
+              {/* <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                   <MapPin className="w-5 h-5" />
                 </div>
@@ -66,7 +66,7 @@ export function Contact() {
                     {portfolioData.personalInfo.address}
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.div>
 

@@ -3,8 +3,9 @@ export const portfolioData = {
     name: "Hamidullah Rezayee",
     title: "Full Stack Developer",
     email: "hamidullahrezayee01@gmail.com", // Placeholder
-    phone: "+44 7476 692947", // Placeholder
-    address: "London, United Kingdom",
+    phone: "+93 777 859 700",
+    // phone: "+44 7476 692947", // Placeholder
+    // address: "London, United Kingdom",
     github: "https://github.com/hamidullahrezayee", // Placeholder
     linkedin: "https://linkedin.com/in/hamidullahrezayee", // Placeholder
     description:

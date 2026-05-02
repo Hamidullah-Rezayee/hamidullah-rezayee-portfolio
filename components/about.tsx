@@ -46,7 +46,7 @@ export function About() {
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
-              <div className="flex items-center gap-3 p-4 rounded-xl bg-card border border-border/50">
+              {/* <div className="flex items-center gap-3 p-4 rounded-xl bg-card border border-border/50">
                 <MapPin className="w-5 h-5 text-primary" />
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
@@ -54,7 +54,7 @@ export function About() {
                     {portfolioData.personalInfo.address}
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div className="flex items-center gap-3 p-4 rounded-xl bg-card border border-border/50">
                 <Calendar className="w-5 h-5 text-primary" />
                 <div>
